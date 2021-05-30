@@ -26,6 +26,7 @@ This repository is built on 2 main structures.
 ### First Part: Generating Hexaxial Mapping Images
 * [Original ECG Image Dataset](/covid19_ECG/original_dataset/dataset_doi.txt)
 * **[[NEW] Pre-processed and segmented paper-based ECG image database](covid19_ECG/preprocessed_dataset)**
+
   ![Figure 2](https://user-images.githubusercontent.com/15153217/120110997-aeedfa00-c178-11eb-984f-6d192d3d670a.png)
   This step is detailed in the [paper](s12911-021-01521-x.pdf). First, raw data is taken from the current database, then this ECG data are preprocessed and segmented, and finally segmented and filtred from background noises ECG parts are obtained. Following codes doing these preocess for each group: [MI](covid19_ECG/MI_imge_ayiklama.m), [Abnormal](covid19_ECG/abnormal_imge_ayiklama.m), [COVID-Type1](covid19_ECG/covid_imge_ayiklama_type1.m), [COVID-Type2](covid19_ECG/covid_imge_ayiklama_type2.m), [COVID-Type3](covid19_ECG/covid_imge_ayiklama_type3.m), [Positive](covid19_ECG/positive_imge_ayiklama.m), and [Normal or Negative](normal_imge_ayiklama.m). Also, these codes generate the GLCM properties related to each ECG type. (You do not need run this codes block because in next step you can find generated GLCM proporties)
   
@@ -37,6 +38,7 @@ You can find statistical analysis: [Statistical Analysis](covid19_ECG/statistica
 * [Hexaxial Mapping Process for Covid vs Normal](covid19_ECG/features_map_covidvsNormal.m)
 * [Hexaxial Mapping Process for Negative vs Positive](covid19_ECG/features_map_negativeVSpositive.m)
 * **[Final Hexaxial Map Images](covid19_ECG/feature_maps)**
+
   ![Figure 4](https://user-images.githubusercontent.com/15153217/120113431-1f017d80-c183-11eb-8a06-8605f0d589b6.png)
 
   You can find detailed codes of first stage in [covid19_ECG](covid19_ECG).
@@ -49,6 +51,7 @@ First of all, it is necessary to move the hexaxial feature map images or 2D ECG 
   
   Detailed explanation is included in the code.
 * Results
+
 ![Figure 8](https://user-images.githubusercontent.com/15153217/120113403-02fddc00-c183-11eb-9966-d735552231bc.png)
 
 
