@@ -47,6 +47,8 @@ First of all, it is necessary to move the hexaxial feature map images or 2D ECG 
 * [Training and Evaulating Code](/covid_ECG_training/train_network_covidECG_CV.py)
   
   Detailed explanation is included in the code.
+* Results
+![Figure 8](https://user-images.githubusercontent.com/15153217/120113403-02fddc00-c183-11eb-9966-d735552231bc.png)
 
 
 ## DOI
