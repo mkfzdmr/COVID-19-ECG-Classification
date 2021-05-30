@@ -37,6 +37,7 @@ You can find statistical analysis: [Statistical Analysis](covid19_ECG/statistica
 * [Hexaxial Mapping Process for Covid vs Normal](covid19_ECG/features_map_covidvsNormal.m)
 * [Hexaxial Mapping Process for Negative vs Positive](covid19_ECG/features_map_negativeVSpositive.m)
 * **[Final Hexaxial Map Images](covid19_ECG/feature_maps)**
+  ![Figure 4](https://user-images.githubusercontent.com/15153217/120113431-1f017d80-c183-11eb-8a06-8605f0d589b6.png)
 
   You can find detailed codes of first stage in [covid19_ECG](covid19_ECG).
 
