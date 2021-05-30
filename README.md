@@ -38,9 +38,16 @@ You can find statistical analysis: [Statistical Analysis](covid19_ECG/statistica
 * [Hexaxial Mapping Process for Negative vs Positive](covid19_ECG/features_map_negativeVSpositive.m)
 * **[Final Hexaxial Map Images](covid19_ECG/feature_maps)**
 
-You can find detailed codes of first stage in [covid19_ECG](covid19_ECG).
+  You can find detailed codes of first stage in [covid19_ECG](covid19_ECG).
 
 ### Second Part: Building Deep Network and Training
+First of all, it is necessary to move the hexaxial feature map images or 2D ECG images obtained in the first step (whichever is desired to be trained) to the relevant dataset file in the [covid_ECG_training](/covid_ECG_training) folder. 
+
+* [Modified AlexNet Architecture](/covid_ECG_training/mimarilerim/alexnet_modified.py)
+* [Training and Evaulating Code](/covid_ECG_training/train_network_covidECG_CV.py)
+  
+  Detailed explanation is included in the code.
+
 
 ## DOI
 
@@ -81,4 +88,4 @@ Cite from [BiomedCentral](https://bmcmedinformdecismak.biomedcentral.com/article
 [PubMed ID:34034715](https://pubmed.ncbi.nlm.nih.gov/34034715/)
 
 ## Contact
-If you need any help, feel free to start an issue (preferred because other people can benefit ) or send me an email: [makif.ozdemir@ikcu.edu.tr](mailto:makif.ozdemir@ikcu.edu.tr)
+If you need any help, feel free to start an issue (preferred because other people can benefit) or send me an email: [makif.ozdemir@ikcu.edu.tr](mailto:makif.ozdemir@ikcu.edu.tr)
