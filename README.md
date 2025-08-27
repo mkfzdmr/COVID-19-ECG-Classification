@@ -94,4 +94,4 @@ Cite from [BiomedCentral](https://bmcmedinformdecismak.biomedcentral.com/article
 [PubMed ID:34034715](https://pubmed.ncbi.nlm.nih.gov/34034715/)
 
 ## Contact
-If you need any help, feel free to start an issue (preferred because other people can benefit) or send me an email: [makif.ozdemir@ikcu.edu.tr](mailto:makif.ozdemir@ikcu.edu.tr)
+If you need any help, feel free to start an issue (preferred because other people can benefit) or send me an email: [makif.ozdemir[at]ikcu.edu.tr]
